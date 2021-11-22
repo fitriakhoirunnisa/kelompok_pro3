@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  header {
+    width: 100%;
+    height: 65px;
+    position :fixed;
+    background-color: rgba(23, 140, 148, 0.9);
+
+    top: 0;
+    z-index: 10;
+  }
+
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .header-left {
+    float: left;
+  }
+
+  .logo {
+    width: 180px;
+    margin-top: -45px;
+  }
+
+  span.menu-icon {
+    float: right;
+    color: white;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
+  .fa {
+    margin-right: 5px;
+  }
+ 
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    float: left;
+    color: white;
+    display: block;
+    padding: 0 25px;
+    line-height: 65px;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .top-wrapper {
+    text-align: center;
+    padding: 180px 0 100px 0;
+    background-image: url(https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg);
+    background-size: cover;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+
+  .signup {
+    background-color:rgb(28, 150, 150);
+  }
+
+  @keyframes animasi {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+  .btn {
+    color: white;
+    text-align: center;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    padding: 15px 30px;
+    animation-name: animasi;
+    animation-duration: 5s;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+
+
+  .lesson-wrapper {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 80px;
+    background-color: rgb(199, 233, 233);
+  }
+  
+  .heading {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:rgb(28, 150, 150);
+
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    font-size: 18px;
+  }
+  
+  .lessons{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .lesson {
+    float: left;
+    width: 20%;
+    color: rgb(28, 150, 150);
+    border: 3px solid rgb(28, 150, 150);
+    border-radius: 10px;
+  }
+
+  
+  .lesson:hover{
+    border: 5px solid white;
+  }
+
+  .lesson-title{
+    width: 80%;
+    font-size: 18px;
+    margin: 15px 0px;
+    display: inline-block;
+  }
+  
+  .lesson-icon img{
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    position: static;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    font-size: 15px;
+    margin-top: 15px;
+    display: inline-block;
+  }
+
+  .txt-address{
+    width: 80%;
+    font-size: 15px;
+    margin: 15px 0px;
+    display: inline-block;
+  }
+
+  a.link{
+    text-decoration-line: underline;
+  }
+
+  a.link:hover{
+    color: #2d3436;
+  }
+
+  footer {
+    padding: 2% 5%;
+  }
+
+  .footer-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-contents{
+    float: left;
+    width: 25%;
+    padding-bottom: 5px;
+  }
+
+  .footer-contents img{
+    width: 125px;
+  }
+
+  .footer-contents p{
+    font-size: 8px;
+  }
+
+  .footer-contents b{
+    font-size: 18px;
+    padding-bottom: 3px;
+  }
+
+  .footer-contents a{
+    color: grey;
+    font-size: 16px;
+    transition: all 0.2s;
+  }
+
+  .footer-contents a:hover{
+    color: black;
+  }
+
+
+  
